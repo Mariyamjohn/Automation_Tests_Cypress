@@ -90,6 +90,7 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
+build/
 
 # Gatsby files
 .cache/
@@ -134,3 +135,28 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# Environment config files
+config.json
+
+
+# Cypress videos/screenshots
+cypress/videos/
+cypress/screenshots/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+
+# Vim temporary files
+*.swp
