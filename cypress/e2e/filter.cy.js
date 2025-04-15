@@ -60,9 +60,9 @@ describe("Sorting Tests for Sauce Demo", () => {
 
     itemslisting().then((items) => {
       const sortedItems = [...items].sort((a, b) => {
-        const priceA = a.price;
-        const priceB = b.price;
-        return priceB - priceA;
+      const priceA = a.price;
+      const priceB = b.price;
+      return priceB - priceA;
       });
       cy.log(sortedItems);
 

@@ -15,7 +15,9 @@ export function itemslisting() {
       .parents(".inventory_item")
       .within(() => {
         cy.get(".inventory_item_desc").then(($desc) => {
+
           description = $desc.text();
+          
         });
         cy.get("img.inventory_item_img")
           .invoke("attr", "src")
